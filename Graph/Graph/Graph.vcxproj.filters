@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Different Implementation of Graph">
+      <UniqueIdentifier>{cb785f66-6697-493c-8fe4-a004ccc447ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Basic Data Structures">
+      <UniqueIdentifier>{7d7fc81d-7603-4cc7-be9c-1f5421573e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpanTree">
+      <UniqueIdentifier>{146b9e40-d9ba-4250-b04c-229c7f52ac1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shortest Path">
+      <UniqueIdentifier>{2bfe40ef-9df4-40fb-9a78-4b275ea3fd99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Header Files\Basic Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\Basic Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Basic Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Basic Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Basic Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphAdjList.h">
+      <Filter>Header Files\Different Implementation of Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphIncidence.h">
+      <Filter>Header Files\Different Implementation of Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphMatrix.h">
+      <Filter>Header Files\Different Implementation of Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="UndirectedTree.h">
+      <Filter>Header Files\SpanTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortestPathFinder.h">
+      <Filter>Header Files\Shortest Path</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
